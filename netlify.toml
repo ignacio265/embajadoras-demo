@@ -1,0 +1,29 @@
+# Sitio estático: Netlify publica la carpeta `sitio` tal cual (la demo está en `sitio/demo-embajadoras/`), sin paso de build.
+# Las páginas se regeneran a mano con `python3 generador/generar.py` y se suben ya armadas.
+[build]
+  publish = "sitio"
+  command = ""
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/demo-embajadoras/css/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+# Las páginas viven en sitio/demo-embajadoras/, la misma ruta con que las serviría
+# ardillalab.com. Quien entre a la raíz de este sitio llega a la demo.
+[[redirects]]
+  from = "/"
+  to = "/demo-embajadoras/index.html"
+  status = 302
+
+# Rutas que no existen: la página 404 de la demo (solo si no hay archivo).
+[[redirects]]
+  from = "/demo-embajadoras/*"
+  to = "/demo-embajadoras/404.html"
+  status = 404

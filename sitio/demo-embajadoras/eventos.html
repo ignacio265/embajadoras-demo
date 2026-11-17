@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Eventos · App Embajadoras</title>
+<meta name="description" content="Demo navegable de un programa de embajadoras para tiendas Shopify: contratos, comisiones, premios, eventos y mailing. Datos simulados.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600;700&family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="/demo-embajadoras/css/estilos.css?v=d0e17324">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='6' fill='%23E8872A'/%3E%3Ccircle cx='12' cy='10' r='4' fill='none' stroke='white' stroke-width='2'/%3E%3Cpath d='M9.5 13.5 8 19l4-2 4 2-1.5-5.5' fill='none' stroke='white' stroke-width='2' stroke-linejoin='round'/%3E%3C/svg%3E">
+</head>
+<body>
+<header class="topbar">
+  <a class="marca" href="/demo-embajadoras/index.html">
+    <span class="marca-icono"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="9" r="5"/><path d="M9 13.5 7 21l5-3 5 3-2-7.5"/></svg></span>
+    <span class="marca-texto">App <span>Embajadoras</span></span>
+  </a>
+  <div class="topbar-der">
+    <span class="pastilla-demo">Modo demo · datos simulados</span>
+    <span class="user-chip" title="Tienda de la demo">
+      <span class="avatar" aria-hidden="true">PS</span><span class="user-chip-nombre">Papelera Scranton</span>
+    </span>
+  </div>
+</header>
+<div class="layout">
+<nav class="sidebar" aria-label="Menú principal"><a href="/demo-embajadoras/index.html" class="nav-item"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/><path d="M10 20v-6h4v6"/></svg><span>Inicio</span></a><div class="menu-sep"></div><a href="/demo-embajadoras/dashboard.html" class="nav-item"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 3v18h18"/><path d="M8 16v-5M13 16V8M18 16v-8"/></svg><span>Dashboard</span></a><a href="/demo-embajadoras/embajadoras.html" class="nav-item"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg><span>Embajadoras</span></a><a href="/demo-embajadoras/contratos.html" class="nav-item"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6"/><path d="M8 13h8M8 17h5"/></svg><span>Contratos</span></a><a href="/demo-embajadoras/premios.html" class="nav-item"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 21h8M12 17v4"/><path d="M7 4h10v5a5 5 0 0 1-10 0V4Z"/><path d="M7 6H4a3 3 0 0 0 3 4M17 6h3a3 3 0 0 1-3 4"/></svg><span>Premios</span></a><a href="/demo-embajadoras/catalogo.html" class="nav-item"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2V5Z"/><path d="M19 19v2H6a2 2 0 0 1-2-2"/><path d="M9 8h6"/></svg><span>Catálogo</span></a><a href="/demo-embajadoras/canjes.html" class="nav-item"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="8" width="18" height="4" rx="1"/><path d="M5 12v8h14v-8M12 8v12"/><path d="M12 8c-1.5-4-6-4-5 0M12 8c1.5-4 6-4 5 0"/></svg><span>Canjes</span></a><button type="button" class="nav-item" popovertarget="demo"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="6" width="13" height="12" rx="2"/><path d="M16 10l5-3v10l-5-3"/></svg><span>Plan de contenido</span><span class="candado" aria-hidden="true">🔒</span></button><a href="/demo-embajadoras/eventos.html" class="nav-item activo" aria-current="page"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg><span>Eventos</span></a><a href="/demo-embajadoras/mailing.html" class="nav-item"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg><span>Mailing</span></a></nav>
+<main class="content">
+
+<div class="cabecera">
+  <h1>Eventos <span>· Comisión extra por fechas</span></h1>
+  <div class="cabecera-acciones"><a class="btn" href="/demo-embajadoras/mailing-anunciar.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11v2a1 1 0 0 0 1 1h3l8 5V5L7 10H4a1 1 0 0 0-1 1Z"/><path d="M18 9a4 4 0 0 1 0 6"/></svg>Anunciar evento</a></div>
+</div>
+<aside class="guia"><span class="guia-icono" aria-hidden="true">i</span><p><strong>Días en que vender paga más.</strong> Un evento multiplica la comisión de sus participantes durante su vigencia: un Cyber, un lanzamiento o una competencia interna. Al agregar o quitar un evento ves los eventos actuales, con sus fechas y participantes.</p></aside>
+<div class="tabs"><input type="radio" name="ev" id="ev-0" checked><input type="radio" name="ev" id="ev-1"><div class="barra-estados"><div class="segmentado"><label for="ev-0">Agregar evento</label><label for="ev-1">Quitar evento</label></div><div class="cabecera-acciones"></div></div><div class="tab-panel">
+<div class="apilado">
+  <section class="tarjeta panel">
+    <h2>Nuevo evento</h2>
+    <div class="form-demo">
+      <label class="campo"><span>Descripción del evento</span><input type="text" value="Ej: Cyber Monday" disabled></label>
+      <label class="campo"><span>Ponderador</span><input type="text" value="1,25" disabled><small>1 = comisión normal. 1,25 = 25 % de comisión adicional.</small></label>
+      <label class="campo"><span>Fecha de inicio</span><input type="text" value="30-nov-2026" disabled></label>
+      <label class="campo"><span>Fecha de fin</span><input type="text" value="02-dic-2026" disabled></label>
+      <label class="campo"><span>Participantes</span><input type="search" list="dl-part" placeholder="Busca ID o código..." autocomplete="off"></label><datalist id="dl-part"><option value="0 - ALL (todas las embajadoras)"><option value="1 - MICHAEL · Michael Scott"><option value="2 - DWIGHT · Dwight Schrute"><option value="3 - JIM · Jim Halpert"><option value="4 - PAM · Pam Beesly"><option value="5 - ANGELA · Angela Martin"><option value="6 - KEVIN · Kevin Malone"><option value="7 - OSCAR · Oscar Martínez"><option value="8 - STANLEY · Stanley Hudson"><option value="9 - PHYLLIS · Phyllis Vance"><option value="10 - ANDY · Andy Bernard"><option value="11 - KELLY · Kelly Kapoor"><option value="12 - RYAN · Ryan Howard"><option value="13 - ERIN · Erin Hannon"><option value="14 - DARRYL · Darryl Philbin"><option value="15 - TOBY · Toby Flenderson"><option value="16 - CREED · Creed Bratton"><option value="17 - MEREDITH · Meredith Palmer"><option value="18 - JAN · Jan Levinson"></datalist>
+      <div class="form-botones"><button type="button" class="btn btn-primario" popovertarget="demo">Guardar evento</button></div>
+    </div>
+  </section>
+  
+<div class="tarjeta tabla-card">
+  <div class="tabla-titulo"><h2>Eventos actuales (5)</h2><span class="muted">activos y programados</span></div>
+  <div class="tabla-scroll"><table>
+    <thead><tr><th>ID</th><th>Evento</th><th class="num">Ponderador</th><th>Vigencia</th><th>Participantes</th><th>Estado</th></tr></thead>
+    <tbody><tr><td class="mono">E-10</td><td><b>Semana de los Dundies</b></td><td class="num"><b>x2</b></td><td>14-dic-2026 al 20-dic-2026</td><td class="largo"><span class="chip chip-azul">MICHAEL</span> <span class="chip chip-azul">DWIGHT</span> <span class="chip chip-azul">KELLY</span> <span class="chip chip-azul">JAN</span></td><td><span class="estado estado-prog">Programado</span></td></tr><tr><td class="mono">E-09</td><td><b>Cyber Monday</b></td><td class="num"><b>x1,25</b></td><td>30-nov-2026 al 02-dic-2026</td><td class="largo"><span class="chip chip-azul">Todas las embajadoras</span></td><td><span class="estado estado-prog">Programado</span></td></tr><tr><td class="mono">E-08</td><td><b>Black Friday</b></td><td class="num"><b>x1,5</b></td><td>27-nov-2026 al 29-nov-2026</td><td class="largo"><span class="chip chip-azul">Todas las embajadoras</span></td><td><span class="estado estado-prog">Programado</span></td></tr><tr><td class="mono">E-07</td><td><b>Olimpiadas de Oficina</b></td><td class="num"><b>x1,2</b></td><td>09-nov-2026 al 22-nov-2026</td><td class="largo"><span class="chip chip-azul">JIM</span> <span class="chip chip-azul">PAM</span> <span class="chip chip-azul">DWIGHT</span> <span class="chip chip-azul">KEVIN</span> <span class="chip chip-azul">OSCAR</span></td><td><span class="estado estado-curso">En curso</span></td></tr><tr><td class="mono">E-06</td><td><b>Día del Pretzel</b></td><td class="num"><b>x1,1</b></td><td>12-nov-2026 al 18-nov-2026</td><td class="largo"><span class="chip chip-azul">STANLEY</span> <span class="chip chip-azul">PHYLLIS</span> <span class="chip chip-azul">DARRYL</span></td><td><span class="estado estado-curso">En curso</span></td></tr></tbody>
+  </table></div>
+</div>
+</div></div><div class="tab-panel">
+<div class="apilado">
+  <div class="tarjeta buscador" style="margin-bottom:0">
+    <label class="campo"><span>Buscar evento</span><input type="search" list="dl-eventos" placeholder="ID o nombre..." autocomplete="off"></label><datalist id="dl-eventos"><option value="E-10 · Semana de los Dundies"><option value="E-09 · Cyber Monday"><option value="E-08 · Black Friday"><option value="E-07 · Olimpiadas de Oficina"><option value="E-06 · Día del Pretzel"></datalist>
+    <button type="button" class="btn btn-peligro" popovertarget="demo">Confirmar baja</button>
+  </div>
+  
+<div class="tarjeta tabla-card">
+  <div class="tabla-titulo"><h2>Eventos actuales (5)</h2><span class="muted">activos y programados</span></div>
+  <div class="tabla-scroll"><table>
+    <thead><tr><th>ID</th><th>Evento</th><th class="num">Ponderador</th><th>Vigencia</th><th>Participantes</th><th>Estado</th><th></th></tr></thead>
+    <tbody><tr><td class="mono">E-10</td><td><b>Semana de los Dundies</b></td><td class="num"><b>x2</b></td><td>14-dic-2026 al 20-dic-2026</td><td class="largo"><span class="chip chip-azul">MICHAEL</span> <span class="chip chip-azul">DWIGHT</span> <span class="chip chip-azul">KELLY</span> <span class="chip chip-azul">JAN</span></td><td><span class="estado estado-prog">Programado</span></td><td><button type="button" class="btn btn-chico btn-peligro" popovertarget="demo"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14"/></svg>Quitar</button></td></tr><tr><td class="mono">E-09</td><td><b>Cyber Monday</b></td><td class="num"><b>x1,25</b></td><td>30-nov-2026 al 02-dic-2026</td><td class="largo"><span class="chip chip-azul">Todas las embajadoras</span></td><td><span class="estado estado-prog">Programado</span></td><td><button type="button" class="btn btn-chico btn-peligro" popovertarget="demo"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14"/></svg>Quitar</button></td></tr><tr><td class="mono">E-08</td><td><b>Black Friday</b></td><td class="num"><b>x1,5</b></td><td>27-nov-2026 al 29-nov-2026</td><td class="largo"><span class="chip chip-azul">Todas las embajadoras</span></td><td><span class="estado estado-prog">Programado</span></td><td><button type="button" class="btn btn-chico btn-peligro" popovertarget="demo"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14"/></svg>Quitar</button></td></tr><tr><td class="mono">E-07</td><td><b>Olimpiadas de Oficina</b></td><td class="num"><b>x1,2</b></td><td>09-nov-2026 al 22-nov-2026</td><td class="largo"><span class="chip chip-azul">JIM</span> <span class="chip chip-azul">PAM</span> <span class="chip chip-azul">DWIGHT</span> <span class="chip chip-azul">KEVIN</span> <span class="chip chip-azul">OSCAR</span></td><td><span class="estado estado-curso">En curso</span></td><td><button type="button" class="btn btn-chico btn-peligro" popovertarget="demo"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14"/></svg>Quitar</button></td></tr><tr><td class="mono">E-06</td><td><b>Día del Pretzel</b></td><td class="num"><b>x1,1</b></td><td>12-nov-2026 al 18-nov-2026</td><td class="largo"><span class="chip chip-azul">STANLEY</span> <span class="chip chip-azul">PHYLLIS</span> <span class="chip chip-azul">DARRYL</span></td><td><span class="estado estado-curso">En curso</span></td><td><button type="button" class="btn btn-chico btn-peligro" popovertarget="demo"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14"/></svg>Quitar</button></td></tr></tbody>
+  </table></div>
+</div>
+</div></div></div>
+
+</main>
+</div>
+
+<footer class="pie">
+  <details>
+    <summary>Observaciones de la demo</summary>
+    <p>Esta demo está escrita solo en HTML y CSS: no guarda nada, no envía correos y todos los datos (tienda, ventas, coins y personas) son simulados.
+    Los nombres de las embajadoras son un guiño a la serie The Office. El aplicativo original se instala en la tienda Shopify del cliente y está desarrollado con:</p>
+    <div class="chips"><span class="chip">App embebida de Shopify</span><span class="chip">TypeScript</span><span class="chip">React Router</span><span class="chip">Node.js</span><span class="chip">PostgreSQL</span><span class="chip">Prisma</span><span class="chip">Webhooks de Shopify</span><span class="chip">Google Cloud Run</span><span class="chip">Resend</span><span class="chip">HTML y CSS</span></div>
+  </details>
+  <span>Desarrollado por <a href="https://ardillalab.com" target="_blank" rel="noopener">ardillalab.com</a></span>
+</footer>
+
+<div id="demo" popover class="modal-demo" role="dialog" aria-labelledby="demo-titulo">
+  <div class="modal-cuerpo">
+    <div class="modal-ardilla"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="9" r="5"/><path d="M9 13.5 7 21l5-3 5 3-2-7.5"/></svg></div>
+    <h2 id="demo-titulo">¿Deseas conocer más?</h2>
+    <p>Esta función está disponible en la versión completa. Agenda una demo ahora y te la muestro funcionando con tu tienda y tu equipo de embajadoras.</p>
+    <div class="modal-botones">
+      <a class="btn btn-primario" href="https://calendar.app.google/a8F5saYxdxWwMsWz7" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>Agendar en Google Calendar</a>
+      <a class="btn btn-whatsapp" href="https://wa.me/56985272032?text=Hola%2C%20vi%20la%20demo%20de%20la%20App%20Embajadoras%20en%20ardillalab.com%20y%20me%20gustar%C3%ADa%20agendar%20una%20reuni%C3%B3n" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-12.3 7.4L3 21l2.1-5.6A8.4 8.4 0 1 1 21 11.5Z"/></svg>Escribir por WhatsApp</a>
+    </div>
+    <button type="button" class="modal-cerrar" popovertarget="demo" popovertargetaction="hide">Seguir explorando</button>
+  </div>
+</div>
+</body>
+</html>
